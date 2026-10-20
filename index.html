@@ -1,19 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-    <style>
-        button{
-            background-color: blue;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NHA – National Highway Authority | Government of Pakistan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div>div 1</div>
-   <div>div 2</div>
-   <div>div 3</div>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span><i class="fa-solid fa-location-dot"></i> Islamabad, Pakistan</span>
+        <span><i class="fa-solid fa-phone"></i> +92 51 9032653</span>
+        <span><i class="fa-regular fa-envelope"></i> info@nha.gov.pk</span>
+      </div>
+      <div class="topbar-right">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <span class="divider"></span>
+        <span class="lang"><i class="fa-solid fa-globe"></i> Urdu <i class="fa-solid fa-chevron-down"></i></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <img class="logo-image" src="images/nha-logo.png" alt="NHA logo">
+        <div class="logo-text">
+          <strong>NHA</strong>
+          <span>National Highway Authority</span>
+          <small>Government of Pakistan</small>
+        </div>
+      </a>
+      <nav class="nav">
+        <a href="#" class="active">Home</a>
+        <a href="#">About Us <i class="fa-solid fa-chevron-down"></i></a>
+        <a href="#">Our Projects <i class="fa-solid fa-chevron-down"></i></a>
+        <a href="#">Services <i class="fa-solid fa-chevron-down"></i></a>
+        <a href="#">Media Center <i class="fa-solid fa-chevron-down"></i></a>
+        <a href="#">Careers</a>
+        <a href="#">Contact Us</a>
+      </nav>
+      <button class="search-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="line"></span> National Highway Authority</div>
+        <h1>Connecting Pakistan,<br>Building <span>Prosperity</span></h1>
+        <p>Our mission is to plan, develop and maintain a modern, safe and efficient highway network for a progressive Pakistan.</p>
+        <div class="hero-btns">
+          <a href="#" class="btn btn-yellow">Explore Our Projects <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#" class="btn btn-outline"><i class="fa-solid fa-circle-play"></i> Watch Video</a>
+        </div>
+      </div>
+      <div class="hero-quote">Better Roads<br>A Stronger <em>Pakistan</em></div>
+      <div class="hero-dots"><span class="on"></span><span></span><span></span></div>
+    </div>
+  </section>
+
+  <div class="services-about">
+  <!-- SERVICES -->
+  <section class="services">
+    <div class="container">
+      <div class="sec-head">
+        <span class="bar"></span>
+        <h2>Our Services</h2>
+        <p>Easy and transparent services for a better travel experience</p>
+      </div>
+      <div class="service-grid">
+        <a href="#" class="service-card">
+          <svg class="icon" viewBox="0 0 48 34" aria-hidden="true"><path d="M15 2h18l14 30H1z" fill="currentColor"/><path fill="#fff" d="M22.5 5h3v5h-3zM22 13h4v6h-4zM21.3 22h5.4v9h-5.4z"/></svg>
+          <h3>Project Tracking</h3>
+          <p>Track the progress of<br>NHA projects</p>
+          <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+        <a href="#" class="service-card">
+          <i class="fa-solid fa-triangle-exclamation icon"></i>
+          <h3>Report an Issue</h3>
+          <p>Report road issues<br>and complaints</p>
+          <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+        <a href="#" class="service-card">
+          <i class="fa-solid fa-file-circle-check icon"></i>
+          <h3>Apply for Permits</h3>
+          <p>Get permits for<br>road related activities</p>
+          <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+        <a href="#" class="service-card">
+          <i class="fa-solid fa-map-location-dot icon"></i>
+          <h3>Road Network Map</h3>
+          <p>Explore our national<br>highway network</p>
+          <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+        <a href="#" class="service-card">
+          <i class="fa-solid fa-briefcase icon"></i>
+          <h3>Careers</h3>
+          <p>Join our team and<br>build your career</p>
+          <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <div class="container about-inner">
+      <div class="about-img">
+        <img class="about-photo" src="images/about-highway.jpg" alt="Highway winding through green hills">
+      </div>
+      <div class="about-text">
+        <span class="bar"></span>
+        <h2>About NHA</h2>
+        <p>The National Highway Authority (NHA) is responsible for the planning, construction, operation and maintenance of Pakistan's national highways and motorways.</p>
+        <ul class="checks">
+          <li><i class="fa-solid fa-check"></i> Developing a modern road infrastructure</li>
+          <li><i class="fa-solid fa-check"></i> Ensuring safe and efficient travel</li>
+          <li><i class="fa-solid fa-check"></i> Supporting economic growth and connectivity</li>
+        </ul>
+        <a href="#" class="btn btn-navy">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="stats">
+        <div class="stat"><svg class="ico" viewBox="0 0 48 34" aria-hidden="true"><path d="M15 2h18l14 30H1z" fill="currentColor"/><path fill="#fff" d="M22.5 5h3v5h-3zM22 13h4v6h-4zM21.3 22h5.4v9h-5.4z"/></svg><strong>14,000+ km</strong><span>Total Road Network</span></div>
+        <div class="stat"><svg class="ico" viewBox="0 0 48 32" aria-hidden="true"><g fill="currentColor"><rect x="0" y="21" width="48" height="4"/><rect x="10" y="3" width="4" height="27"/><rect x="34" y="3" width="4" height="27"/></g><path d="M0 21Q6 12 12 4Q24 24 36 4Q42 12 48 21" fill="none" stroke="currentColor" stroke-width="2"/></svg><strong>2,500+ km</strong><span>National Highways</span></div>
+        <div class="stat"><svg class="ico" viewBox="0 0 48 34" aria-hidden="true"><path d="M15 2h18l14 30H1z" fill="currentColor"/><path fill="#fff" d="M22.5 5h3v5h-3zM22 13h4v6h-4zM21.3 22h5.4v9h-5.4z"/></svg><strong>1,300+ km</strong><span>Motorways</span></div>
+        <div class="stat"><svg class="shield" viewBox="0 0 24 28" aria-hidden="true"><path d="M12 1 2 5v8c0 6.5 4.2 11.2 10 14 5.8-2.8 10-7.5 10-14V5L12 1z" fill="currentColor"/><path d="m7.5 13.5 3.3 3.3 6-6.3" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><strong class="sm">A Safer &amp; Stronger</strong><span>Pakistan</span></div>
+      </div>
+    </div>
+  </section>
+
+  </div>
+
+  <!-- PROJECTS -->
+  <section class="projects">
+    <div class="container projects-inner">
+      <div class="projects-intro">
+        <span class="bar"></span>
+        <h2>Our Projects</h2>
+        <p>Building a connected and prosperous Pakistan.</p>
+        <a href="#" class="btn btn-yellow sm">View All Projects <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="p-img p1"></div>
+          <div class="p-body"><h4>M-6 Motorway</h4><small>Karachi – Hyderabad</small><span class="status"><i class="dot green"></i> Ongoing</span></div>
+        </article>
+        <article class="project-card">
+          <div class="p-img p2"></div>
+          <div class="p-body"><h4>Sukkur – Multan Motorway</h4><span class="status"><i class="dot green"></i> Ongoing</span></div>
+        </article>
+        <article class="project-card">
+          <div class="p-img p3"></div>
+          <div class="p-body"><h4>Hazara Motorway (M-15)</h4><span class="status"><i class="dot blue"></i> Completed</span></div>
+        </article>
+        <article class="project-card">
+          <div class="p-img p4"></div>
+          <div class="p-body"><h4>Lahore – Sialkot Motorway (M-11)</h4><span class="status"><i class="dot blue"></i> Completed</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRACKING -->
+  <section class="tracking">
+    <div class="track-photo" role="img" aria-label="Project tracking on a laptop"></div>
+    <i class="fa-solid fa-location-dot track-pin" aria-hidden="true"></i>
+    <div class="tracking-inner">
+      <div class="track-spacer"></div>
+      <div class="track-text">
+        <span class="bar"></span>
+        <h2>Real-Time Project Tracking</h2>
+        <p>Enter your project details and track live progress, right from anywhere in Pakistan.</p>
+        <a href="#" class="btn btn-navy">Track Now <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <ul class="track-steps">
+        <li><i class="fa-solid fa-magnifying-glass"></i> Search Your Project</li>
+        <li><i class="fa-solid fa-chart-line"></i> View Live Progress</li>
+        <li><i class="fa-solid fa-bell"></i> Stay Informed</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- UPDATES + MAP -->
+  <section class="updates">
+    <div class="container updates-inner">
+      <div class="updates-intro">
+        <span class="bar"></span>
+        <h2>Latest Updates</h2>
+        <p>Stay informed with the latest news, announcements and developments.</p>
+        <a href="#" class="btn btn-yellow xs">View All Updates <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <ul class="news-list">
+        <li><div class="date"><small>Oct</small><b>15</b></div><span>NHA Completes Key Section of M-6 Motorway</span></li>
+        <li><div class="date"><small>Oct</small><b>10</b></div><span>New Project Launched for Improved Connectivity in Balochistan</span></li>
+        <li><div class="date"><small>Oct</small><b>05</b></div><span>NHA Introduces Digital Project Tracking System</span></li>
+      </ul>
+      <div class="map-box">
+        <div class="map-text">
+          <span class="bar"></span>
+          <h2>Our Network Map</h2>
+          <p>Explore the complete map of NHA highways and motorways.</p>
+          <a href="#" class="btn btn-yellow xs">View Map <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <img class="map-img" src="images/pakistan-map.png" alt="Pakistan highway network map">
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section class="testimonial">
+    <div class="container testi-inner">
+      <div class="testi-title">
+        <h2>What People Say</h2>
+        <p>Trusted by millions across Pakistan</p>
+      </div>
+      <button class="round-btn" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></button>
+      <blockquote class="testi-card">
+        <i class="fa-solid fa-quote-left"></i>
+        <p>NHA's efforts have greatly improved travel across Pakistan. The highways are safer, smoother and more reliable.</p>
+        <cite>— A Proud Citizen of Pakistan</cite>
+        <div class="dots"><span class="on"></span><span></span><span></span></div>
+      </blockquote>
+      <button class="round-btn" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></button>
+      <div class="testi-quote">Together for a<br>Better Tomorrow</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <a href="#" class="logo light">
+        <img class="logo-image" src="images/nha-logo-footer.png" alt="NHA logo">
+        <div class="logo-text">
+          <strong>NHA</strong>
+          <span>National Highway Authority</span>
+          <small>Government of Pakistan</small>
+        </div>
+      </a>
+      <div>
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Projects</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Media Center</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Useful Links</h5>
+        <ul>
+          <li><a href="#">Road Network Map</a></li>
+          <li><a href="#">Project Tracking</a></li>
+          <li><a href="#">Report an Issue</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h5>Contact Us</h5>
+        <p><i class="fa-solid fa-phone"></i> +92 51 9032653</p>
+        <p><i class="fa-regular fa-envelope"></i> info@nha.gov.pk</p>
+        <p><i class="fa-solid fa-location-dot"></i> 27-28 Mauve Area, G-9/1<br>Islamabad, Pakistan</p>
+      </div>
+      <div class="follow">
+        <h5>Follow Us</h5>
+        <div class="social">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container fb-inner">
+        <span>© 2026 National Highway Authority. All Rights Reserved.</span>
+        <span><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Sitemap</a></span>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
